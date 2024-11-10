@@ -1,5 +1,5 @@
+import 'package:budget_planning/features/budget/presentation/screens/homescreen.dart';
 import 'package:flutter/material.dart';
-import 'features/budget/presentation/screens/budget_dashboard_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Budget Planning',
       theme: ThemeData(
-        primarySwatch: Colors.blue, // Customize your theme
+        primarySwatch: Colors.blue, 
       ),
-      home: BudgetDashboardScreen(), // Set the initial screen
+      home: const HomeScreen(), // Set the initial screen
     );
   }
 } 

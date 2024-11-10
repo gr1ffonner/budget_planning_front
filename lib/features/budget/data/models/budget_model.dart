@@ -15,7 +15,6 @@ class BudgetModel {
     required this.endDate,
   });
 
-  // You can add a method to map from JSON if you're fetching from an API
  factory BudgetModel.fromJson(Map<String, dynamic> json) {
   return BudgetModel(
     id: json['budget_id'],
